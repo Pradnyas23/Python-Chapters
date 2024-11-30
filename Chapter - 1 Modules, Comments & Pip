@@ -1,0 +1,16 @@
+print ("Hello Python")  # Here print is a function.
+
+'''A module is a file containing code written by somebody
+else usually which can be imported and used in our program ex import os
+Types of module:
+1)Built in modules : Pre installed in python. Ex : os etc
+2)External Modules : Need to install using pip. Ex : tensorflow
+'''
+
+''' Pip: Pip is a package manager for python. You can use pip
+to install a module on your system Ex: pip install flask'''
+
+#Comments: Comments are used to write something which the programmer does not want to execute.
+'''Types:
+1) Single line comments : written with #
+2) Multi line comments : written with '''
