@@ -1,0 +1,18 @@
+#String Slicing
+# name= "Pradnya "
+# print(name[3])
+# print(name[0:3])   
+# print(name[0::2])
+
+#String Functions:
+story = "Once upon a time there was a beautiful girl named pradnya"
+print(len(story)) #Gives the length of the string
+
+print(story.endswith("nya")) #Gives result in boolean according to the condition.
+#or
+print(story.endswith("Pradnya"))
+
+print(story.count("a"))  #Returns the count of occurance of any word or letter
+
+print(story.capitalize()) #Here the first letter of the statement is capitalized. We cannot capitalize any random middle word like upon.
+
