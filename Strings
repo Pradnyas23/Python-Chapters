@@ -1,8 +1,17 @@
+#String can be written with " or ' or '''
+Ex : ''' pradnya"s and pradnya's'''
+
+
 #String Slicing
 # name= "Pradnya "
 # print(name[3])
 # print(name[0:3])   
-# print(name[0::2])
+# print(name[0::2])    //(include:exclude:skipvalue)
+
+name[3] = "p" #You cannot change any character, you can only access
+
+#negative indices
+print(name[-2])
 
 #String Functions:
 story = "Once upon a time there was a beautiful girl named pradnya"
