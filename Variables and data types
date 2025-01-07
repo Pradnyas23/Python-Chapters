@@ -1,0 +1,7 @@
+# Python is case-sesitive. A and a bothe are different variables
+
+z = input("Enter your number")
+z = int(z)          #here typecasting is done
+print(type(z))      #by default the input will be str
+
+
