@@ -1,0 +1,11 @@
+#Dictionary is collection of key-value pairs
+myDict={
+    "Fast" : "In a quick manner",
+    "name" : "Pradnya",
+    "my pet" : "pallya",
+    "anotherdict" : {'harry':'coder'}  #you can create another dictionary 
+}
+print(myDict['Fast'])
+print(myDict['my pet'])
+print(myDict["anotherdict"]['harry'])
+
