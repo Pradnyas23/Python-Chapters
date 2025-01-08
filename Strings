@@ -25,3 +25,12 @@ print(story.count("a"))  #Returns the count of occurance of any word or letter
 
 print(story.capitalize()) #Here the first letter of the statement is capitalized. We cannot capitalize any random middle word like upon.
 
+print(story.find("harry"))
+
+#Escape sequence character
+story = "Harry is good.\nHe is very good"
+print(story)
+
+story = "Hello Worl\\d"  #If you want to print \ in word then add \\
+print(story)
+
