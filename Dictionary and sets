@@ -9,3 +9,88 @@ print(myDict['Fast'])
 print(myDict['my pet'])
 print(myDict["anotherdict"]['harry'])
 
+-----------------------------------------------------------------------------------------
+
+#Dictionary Methods
+print(myDict.keys())   #prints keys of the dictionary
+
+print(myDict.values())   #prints values of the dictionary
+
+print(myDict.items())  #prints like a list
+
+-----------------------------------------------------------------------------------------
+
+#Updating the dictionary
+updatedict = {
+    "Lovish" : "Friend"
+    "
+}
+myDict.update(updatedict)    #This updates the dictionary
+print(myDict)
+
+------------------------------------------------------------------------------------------
+
+#we can even update the already present key-value pair
+updatedict = {
+    "anotherdict" : {'harry':"a singer"}, 
+    "sheyii" : "a girl"
+}
+
+myDict.update(updatedict)
+print(myDict)
+
+#Here both can give same result but with different way, if key is not present then the output will be
+#or the difference between .get and [] in dictionary
+print(myDict["na"])    #this throws error   #this is interview ques 
+print(myDict.get("na"))  #but this gives none as result   
+
+------------------------------------------------------------------------------------------------------------------------
+#Sets in Python
+#In set repetative values are not shown in the result
+a = {1,2,3,4}
+print(type(a))
+
+#Important: This syntax will create an empty dictionary and not empty set
+a = {}
+print(type(a))
+
+#To create empty set
+b = set()
+print(type(b))
+
+#Adding values to empty set using method .add
+b = set()
+b.add(3)
+b.add(9)
+b.add(9) #Even if you add 10 times 9 then only one 9 will be added as set is a collection of nonrepetative values
+print(b)
+
+#You cannot add list in set as list is unhashable i.e values in list can be changed
+b.add([1,2])
+print(b)
+
+b.add({2:3})  #even dictionary is unhashable so we cannot add dict to set
+print(b)
+
+#but we can add tuple as they are hashable
+b.add((1,2))
+print(b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
