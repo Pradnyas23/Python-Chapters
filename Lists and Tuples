@@ -1,0 +1,55 @@
+a = ["a" , 2, 3, "v"]
+print(a[0])
+
+a[0]= 23   #you can change value in list
+print(a)
+
+#We can create a list with different datatypes
+c = ["Harry", 2 ,3 ,"ranu"]
+print(c)
+
+#List Slicing
+c = ["Harry", 2 ,3 ,"ranu","pikki "]
+print(c[0:4])
+print(c[0:-1]) #here everthing is printed excluding -1
+print(c[-1:])  #here from -1 the elements are printed
+
+#List Methods
+L1=[1,8,2,3,4,2,9]
+L1.sort()    #sorts the list
+print(L1)
+
+L1.reverse()  #reverses the list
+print(L1)
+
+L1.append(32) #APPENDS AT THE END OF THE LIST
+print(L1)
+
+L1.insert(0,133) #inserts 133 at index 0
+print(L1)
+
+L1.pop(2) #REMOVES VALUE FROM INDEX 2
+print(L1)
+
+L1.remove(2)  #REMOVES FIRST OCCURANCE OF THE VALUE
+print(L1)
+
+#Tuples :  It is a immutable data type in python.immutable means cannot be changed
+
+t = (0,1,5,3)
+print(t[2])   #you can access the tuple
+
+t[0]=10
+print(t)     #yOu cannt update items in tuple, IT THROWS error
+
+t1=()  #empty tuple
+t1=(5)  #you can declare a value without comma also
+t1=(1,)  #you should alwys add comma
+
+#You can update value in list but cannot update in tuple
+
+#Tuple methods
+t = (1,6,2,6,9,0)
+print(t.count(6))    #returs number of occurances of value
+
+print(t.index(9))    #it return the index where the value is present
