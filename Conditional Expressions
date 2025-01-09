@@ -1,0 +1,45 @@
+# If-else condition
+if(condition1):
+    print("yes")    #here the space is called indentation
+elif(condition2):
+    print("no")
+else:
+    print("not at all")
+
+# Example
+a = 2
+b = 3
+if(a>b):
+    print("hello")
+else:
+    print("bye")
+
+#multiple if statements then they will execute separately
+a = 7
+if(a>3):
+    print("true")
+
+if(a<8):
+    print("false")
+
+if(a>3):
+    print("hello")
+
+else:
+    print("chinnya")
+
+#Write a program to print yes when the age entered by the user is greater than or equl to 18
+age = int(input("Enter your age:"))
+
+if(age>=18):
+    print("yes")
+else:
+    print("no")
+
+#Relational Opearators:These are used t evaluate conditions insideif statements.
+
+
+
+
+
+
