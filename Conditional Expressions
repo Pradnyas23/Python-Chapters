@@ -36,7 +36,45 @@ if(age>=18):
 else:
     print("no")
 
-#Relational Opearators:These are used t evaluate conditions insideif statements.
+
+#Relational Opearators:These are used to evaluate conditions insideif statements.
+== -> Equals
+>= -> Greater than equal to 
+<= ->less than equal to
+
+#Logical Opearators
+and = true if both operands are True
+or = true if one operand is true else False
+not = inverts true to false & false to True
+
+#Example
+age = int(input("Enter your age:"))
+
+if(age>=18 and age<=10):
+    print("yes")
+else:
+    print("no")
+
+#program using "is"
+a = None
+if(a is None):   #both are same or no is checked by is.
+    print("yes")
+else:
+    print("no")
+
+# Using "in"
+a = [12,2,3,4]
+if(2 in a):             #CHEKED IF THE VALUE IS PRESENT IN A OR NOT
+    print("yes")
+else:
+    print("no")
+
+
+
+
+
+
+
 
 
 
