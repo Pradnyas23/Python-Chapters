@@ -1,0 +1,37 @@
+#Function
+
+def percent(marks):
+    return(sum(marks)/4)
+
+marks = [45,78,32,21]
+marks2 = [2,4,5,6]
+print(percent(marks2))
+
+--------------------------------------------------------------------------------
+#function defination : the content that you have written in your function
+-------------------------------------------------------------------------------
+#ex
+def greet(self):
+    print("Good morning ," + self)    #this is function defination
+
+greet("kajal")         #this is function call
+--------------------------------------------------------------------------------
+#There are two types of fuctions : user defined and built in function
+
+#Default_parameter value :we can set default parameter even if we dont provide parameter then that value is added
+
+def greet(name="stranger"):
+    print("Good day ,"+ name)
+
+greet("pradnya")   #here argument is passed so that is printed
+greet()            #here no argument so default is printed
+
+-----------------------------------------------------------------------------------------
+#Recursion Function : This function calls itself. It is used to directly use a mathematical formula.
+
+
+
+
+
+
+
